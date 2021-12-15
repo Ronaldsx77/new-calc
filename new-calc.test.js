@@ -25,19 +25,19 @@ test('Soma 9 e "r" espera NaN', () => {
 })
 
 // Atividade A1.2
-test('Subitrair 30 e 14 espera 16', () => {
+test('Subtrair 30 e 14 espera 16', () => {
     expect(calc.sub(30, 14)).toBe(16);
 })
 
-test('Subitrair -90 e -34 espera -56', () => {
+test('Subtrair -90 e -34 espera -56', () => {
     expect(calc.sub(-90, -34)).toBe(-56);
 })
 
-test('Subitrair 56 e -18 espera 74', () => {
+test('Subtrair 56 e -18 espera 74', () => {
     expect(calc.sub(56, -18)).toBe(74);
 })
 
-test('Subitrair 82 e 0 espera 82', () => {
+test('Subtrair 82 e 0 espera 82', () => {
     expect(calc.sub(82, 0)).toBe(82);
 })
 
